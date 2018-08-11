@@ -1,5 +1,7 @@
 
-//dạng 1
+// dạng 1
+// Sử dụng hàm $( document ).ready() khi muốn xử lý javascript ngay khi page được load
+
 $(document).ready(function () {
   $("a").click(function (e) {
     alert("aaaa");

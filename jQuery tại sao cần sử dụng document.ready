@@ -1,0 +1,15 @@
+
+//dạng 1
+$(document).ready(function () {
+  $("a").click(function (e) {
+    alert("aaaa");
+    e.preventDefault()/
+  });
+});
+
+//dang 2
+
+$("a").click(function (e) {
+    alert("aaaa");
+    e.preventDefault()/
+});

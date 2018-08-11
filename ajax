@@ -4,7 +4,7 @@
             $.ajax({
                 url: 'vidu2.php',
                 type: 'POST',
-                dataType: 'html',
+                dataType: 'json',
                 data: {
                     a: "content abc",
                     b: "content bcd"

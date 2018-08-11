@@ -1,17 +1,15 @@
- $(document).ready(function() {
-        $('#load-du-lieu').click(function(e) {
-            e.preventDefault();
-            $.ajax({
-                url: 'vidu2.php',
-                type: 'POST',
-                dataType: 'json',
-                data: {
-                    a: "content abc",
-                    b: "content bcd"
-                }
-            }).done(function(ketqua) {
-                $('#noidung').html(ketqua);
-            });
-            
-        });
-    });
+$.ajax({
+    type: 'POST',
+    url: 'data.php',
+    data: {
+        id: "1",
+        email: "hocphp@gmail.com"
+    },
+    dataType: 'html',
+    success: function(data) {
+        // code here
+    },
+    error: function() {
+        // code here
+    }
+});
